@@ -13,7 +13,7 @@ const Home = () => {
                         Front-End Developer <span className="text-blue-400">|</span> Web Designer
                     </p>
                     <div className="flex justify-center md:justify-start">
-                        <a href="/public/assets/CV2.png" target='_blank' rel='noopener noreferrer' className="px-6 py-3 bg-blue-500 hover:bg-blue-300 rounded-xl shadow-lg font-semibold transition text-white">Get CV</a>
+                        <a href={`${import.meta.env.BASE_URL}assets/CV2.png`} target='_blank' rel='noopener noreferrer' className="px-6 py-3 bg-blue-500 hover:bg-blue-300 rounded-xl shadow-lg font-semibold transition text-white">Get CV</a>
                     </div>
                     <div className="flex items-center justify-center md:justify-start gap-5 text-white text-2xl">
                         <span className="text-gray-300 text-base">Follow Me:</span>
@@ -23,7 +23,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="flex justify-center md:justify-end order-1 md:order-2">
-                        <img src="/public/assets/1.png" alt="profil" className="w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-xl shadow-lg border-4 border-blue-400 object-cover" />
+                        <img src={`${import.meta.env.BASE_URL}assets/1.png`} alt="profil" className="w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-xl shadow-lg border-4 border-blue-400 object-cover" />
                 </div>
             </div>
         </section>

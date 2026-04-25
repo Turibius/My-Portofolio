@@ -5,7 +5,7 @@ export default function Projects() {
         {
             title: "Article Management",
             description: "Article management is a system for searching, reading, and managing articles with admin capabilities.",
-            image: "/public/assets/Logo3.jpg",
+            image: `${import.meta.env.BASE_URL}assets/Logo3.jpg`,
             tech: ["Next.js", "TailwindCSS", "RestApi", "TypeScript", "Vercel"],
             links: { web: "", github: "https://github.com/Turibius/Project-kerjapraktek.git" },
         }

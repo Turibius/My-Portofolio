@@ -13,16 +13,16 @@ export class Experience extends Component {
                 place: "Assisted Lecturer – Practical Internship",
                 description: "Worked with a lecturer on a project, gaining experience in research collaboration and technical implementation.",
                 year: "2023",
-                certificateImage: "/public/assets/Turibius Heru Setiawan 205314031-1.png",
-                certificateFile: "/public/assets/Turibius Heru Setiawan 205314031.pdf"
+                certificateImage: `${import.meta.env.BASE_URL}assets/Turibius Heru Setiawan 205314031-1.png`,
+                certificateFile: "/My-Portofolio/assets/Turibius Heru Setiawan 205314031.pdf"
             },
             {
                 title: "Committee Experience",
                 place: "Pekan Olahraga – CO (Coordinator)",
                 description: "Organized and coordinated sports week activities, developed leadership and event management skills.",
                 year: "2022",
-                certificateImage: "/public/assets/Sertif-Panitia_018.png",
-                certificateFile: "/public/assets/Sertif-Panitia_018.pdf"
+                certificateImage: `${import.meta.env.BASE_URL}assets/Sertif-Panitia_018.png`,
+                certificateFile: "/My-Portofolio/assets/My-Portofolio/assets/Sertif-Panitia_018.pdf"
             }
             
         ]

@@ -10,7 +10,7 @@
                     <div className="flex justify-between h-16 items-center">
                         {/* Logo dan Nama */}
                         <div className="flex items-center space-x-3">
-                            <img src="/assets/logo.png" alt="logo" className="h-9 w-9" />
+                            <img src="/My-Portofolio/assets/logo.png" alt="logo" className="h-9 w-9" />
                             <span className="text-lg sm:text-xl font-bold text-white whitespace-nowrap">Turibius Heru Setiawan</span>
                         </div>
                         {/* Menu Navigasi */}
