@@ -40,7 +40,7 @@ export class About extends PureComponent {
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
                     {["HTML", "CSS", "JavaScript", "React JS", 
                         "PHP", "Git", 
-                        "GitHub", "Python", "Tailwind CSS", ].map((skill, index) => (
+                        "GitHub", "Python", "Tailwind CSS", "Laravel", ].map((skill, index) => (
                         <span key={index} className="bg-white/20 px-4 py-2 rounded-xl font-medium shadow-md hover:bg-white/30 transition">
                             {skill}
                         </span>
