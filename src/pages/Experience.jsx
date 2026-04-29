@@ -22,7 +22,7 @@ export class Experience extends Component {
                 description: "Organized and coordinated sports week activities, developed leadership and event management skills.",
                 year: "2022",
                 certificateImage: `${import.meta.env.BASE_URL}assets/Sertif-Panitia_018.png`,
-                certificateFile: "/My-Portofolio/assets/My-Portofolio/assets/Sertif-Panitia_018.pdf"
+                certificateFile: "/My-Portofolio/assets/Sertif-Panitia_018.pdf"
             }
             
         ]
