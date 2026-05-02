@@ -3,11 +3,18 @@ import React, { useState } from "react";
 export default function Projects() {
     const [projects] = useState([
         {
-            title: "Article Management",
-            description: "Article management is a system for searching, reading, and managing articles with admin capabilities.",
+            title: "Sales & Inventory Management System",
+            description: "A web-based system for managing sales transactions, tracking stock movements, and generating reports for business owners.",
             image: `${import.meta.env.BASE_URL}assets/Logo3.jpg`,
-            tech: ["Next.js", "TailwindCSS", "RestApi", "TypeScript", "Vercel"],
+            tech: ["PHP (Naratif)", "SCSS", "Composer", "Vendor Libraries", "MySQL", "Bootstrap", "JavaScript"],
             links: { web: "", github: "https://github.com/Turibius/Project-kerjapraktek.git" },
+        },
+        {
+            title: "Personal Notes Management System",
+            description: "A Laravel-based web application for creating, organizing, and managing personal notes.",
+            image: `${import.meta.env.BASE_URL}assets/notess.png`,
+            tech: ["Laravel", "PHP", "Blade Template", "Bootstrap", "MySQL",  "JavaScript"],
+            links: { web: "", github: "https://github.com/Turibius/Notes-projectpribadi.git" },
         }
     ]);
 
